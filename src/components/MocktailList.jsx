@@ -3,8 +3,8 @@ import { cocktailLists } from '../../constants'
 
 const MocktailList = () => {
   return (
-    <div>
-      <div className='my-10'>
+    <div className='md:flex justify-between'>
+      <div className='my-10 border md:px-20'>
         <h1 className='text-2xl'>Most Popular cocoktails:</h1>
 
         <ul>
@@ -14,7 +14,7 @@ const MocktailList = () => {
           </a> */}
            {
             cocktailLists.map(({name, country, detail, price})=>(
-              <a href="#" className='flex justify-between items-center my-5 mx-1'>
+              <a href="#" className='flex justify-between items-center my-5 mx-1 '>
                 <div className='my-1'>
                   <h5 className='text-xl text-amber-200'>{name}</h5>
                   <p>{country} | {detail}</p>
@@ -28,7 +28,7 @@ const MocktailList = () => {
       </div>
     
 
-      <div className='my-10'>
+      <div className='my-10 md:px-20 border'>
         <h1 className='text-2xl'>Most Popular cocoktails:</h1>
 
         <ul>
