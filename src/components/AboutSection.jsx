@@ -2,13 +2,13 @@ import React from 'react'
 
 const AboutSection = () => {
   return (
-    <div>
-      <div>
+    <div className='md:flex justify-between items-center'>
+      <div className='md:w-100'>
         <span className='bg-white text-black rounded-3xl px-4 py-2'>Best Cocktails</span>
         <p className='font-bold text-4xl my-5'>Where every detail matters—from muddle to garnish</p>
       </div>
 
-      <div>
+      <div className='md:w-130'>
           <p>The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing. Shaken, frozen, or on the rocks—it’s always crisp/</p>
           <div className='flex justify-between items-center   border'>
               <div className='w-[w-50vw]'>

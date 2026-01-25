@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import MocktailList from './components/MocktailList'
 import AboutSection from './components/AboutSection'
 import Herosection1 from './components/Herosection1'
+import Images from './components/Images'
 
 // import ScrollVideo from './components/ScrollVideo'
 
@@ -16,6 +17,7 @@ const App = () => {
       <Herosection1/>
      <MocktailList/>
      <AboutSection/>
+     <Images/>
     </>
   )
 }
