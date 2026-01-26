@@ -29,6 +29,25 @@ body {
     box-sizing: border-box;
 }
 
+@utility masked-img {
+    mask-image: url("public/images/mask-img.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: 50%;
+}
+
+.masked-text {
+    background-image: url("public/images/under-img.jpg");
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+ 
+
+
 /*
 @utility flex-center {
     @apply flex justify-center items-center;

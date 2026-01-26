@@ -8,7 +8,7 @@ const AboutSection = () => {
         <p className='font-bold text-4xl my-5'>Where every detail matters—from muddle to garnish</p>
       </div>
 
-      <div className='md:w-130'>
+      <div className=' md:w-130 '>
           <p>The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing. Shaken, frozen, or on the rocks—it’s always crisp/</p>
           <div className='flex justify-between items-center   border'>
               <div className='w-[w-50vw]'>
@@ -19,7 +19,7 @@ const AboutSection = () => {
 
               <div className='h-full border'></div>
 
-              <div className='flex justify-center items-center w-[50vw]'>
+              <div className='flex justify-center items-center w-[50vw] my-5'>
                 <span className='flex  bg-[#373737] py-2 px-4 border-black items-center border rounded-3xl '>
                   <img src="/public/images/profile1.png" className='w-10 h-10' alt="profile1" />
                   <img src="/public/images/profile2.png"  className='w-10 h-10 relative -left-2' alt="profile2" />
