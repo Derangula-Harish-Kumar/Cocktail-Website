@@ -16,14 +16,27 @@
 }
 
 */
+
+@theme {
+  --font-serif: "DM Serif Text", serif; 
+  --font-sans: "Mona Sans", sans-serif;
+}
+
+
+
  html,
 body {
     width: 100%;
-    background: #000;
+    height: 100%;
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
-
+    position: relative;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #000;
 } 
 *{
     box-sizing: border-box;
@@ -46,7 +59,9 @@ body {
 }
 
  
-
+@utility title-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-t from-[#0f0f0f] to-[#ffffff] text-center  font-serif;
+}
 
 /*
 @utility flex-center {

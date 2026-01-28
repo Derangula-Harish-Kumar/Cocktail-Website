@@ -14,7 +14,7 @@ const MocktailList = () => {
           </a> */}
            {
             cocktailLists.map(({name, country, detail, price})=>(
-              <a href="#" className='flex justify-between items-center my-5 mx-1 '>
+              <a key={name} href="#" className='flex justify-between items-center my-5 mx-1 '>
                 <div className='my-1'>
                   <h5 className='text-xl text-amber-200'>{name}</h5>
                   <p>{country} | {detail}</p>
@@ -38,9 +38,9 @@ const MocktailList = () => {
           </a> */}
            {
             cocktailLists.map(({name, country, detail, price})=>(
-              <a href="#" className='flex justify-between items-center my-5 mx-1'>
+              <a key={name} href="#" className='flex justify-between items-center my-5 mx-1'>
                 <div className='my-1'>
-                  <h5 key={name} className='text-xl text-amber-200'>{name}</h5>
+                  <h5 className='text-xl text-amber-200'>{name}</h5>
                   <p>{country} | {detail}</p>
                 </div>
 
