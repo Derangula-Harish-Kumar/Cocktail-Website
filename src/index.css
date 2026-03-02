@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+@utility mask-img{
+  mask-image: url("public/images/mask-img.png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 50%;
+}
