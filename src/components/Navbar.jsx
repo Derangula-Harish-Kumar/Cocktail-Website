@@ -17,11 +17,7 @@ const Navbar = () => {
             href="#home"
             className="flex items-center gap-2 justify-center  font-bold text-2xl"
           >
-            <img
-              src="/public/images/logo.png"
-              alt="logo"
-              className="w-8 md:w-[2vw]"
-            />
+            <img src="/images/logo.png" alt="logo" className="w-8 md:w-[2vw]" />
             <p className="font-serif text-xl">Velvet Pour</p>
           </a>
 
