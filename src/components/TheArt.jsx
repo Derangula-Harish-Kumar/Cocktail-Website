@@ -68,7 +68,10 @@ const TheArt = () => {
 
   return (
     <div>
-      <div ref={parent} className=" w-100vw md:w-screen bg-black text-white">
+      <div
+        ref={parent}
+        className=" w-100vw h-screen md:w-screen bg-black text-white"
+      >
         <div
           className=" h-full 
         md:mx-20"
