@@ -12,7 +12,7 @@ const Navbar = () => {
     md:h-15
     lg:h-20 "
       >
-        <div className=" w-full md:flex justify-between items-center  mx-10">
+        <div className=" w-full md:flex justify-between items-center  mx-5 md:mx-10 lg:mx-20">
           <a
             href="#home"
             className="flex items-center gap-2 justify-center  font-bold text-2xl"

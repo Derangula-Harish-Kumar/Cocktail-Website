@@ -39,10 +39,10 @@ const MocktailList = () => {
     });
   }, []);
   return (
-    <div className="md:flex justify-between  md:h-[70vh] items-center">
+    <div className="md:h-[80vh] md: lg:flex justify-between   items-center ">
       <div
         ref={listRef1}
-        className="px-5 text-start md:px-15 md:w-[50vw] lg:w-[30vw]"
+        className="px-5  text-start md:px-15 md:w-[80vw] lg:w-[30vw] "
       >
         <h1 className="text-2xl md:text-3xl">Most Popular cocoktails:</h1>
 
@@ -75,7 +75,7 @@ const MocktailList = () => {
       <div
         ref={listRef2}
         className="px-5 my-20 md:px-20 text-start 
-        md:my-0 md:w-[50vw] 
+        md:my-15 md:w-[80vw] md:float-end
         lg:w-[30vw]"
       >
         <h1 className="text-2xl md:text-3xl">Most loved mocktails:</h1>

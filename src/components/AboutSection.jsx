@@ -67,7 +67,7 @@ const AboutSection = () => {
   });
 
   return (
-    <div className=" md:flex justify-between items-center mx-10">
+    <div className=" md:flex justify-between items-center mx-10 ">
       <div className=" md:w-100 text-start">
         <span className="bg-white text-black rounded-3xl px-5 py-2 text-xl">
           Best Cocktails
@@ -101,7 +101,7 @@ const AboutSection = () => {
             <span className="text-6xl font-bold text-[#E1c878]">
               4.5<span className="text-2xl text-white">/5</span>
             </span>
-            <p className="text-xl mt-4">More than +12000 customers</p>
+            <p className="text-sm mt-4">More than +12000 customers</p>
           </div>
 
           <div className="h-full border"></div>
@@ -111,7 +111,7 @@ const AboutSection = () => {
             className="flex justify-center items-center w-full my-5 "
           >
             {/* We just need a standard flex container here, no relative positioning needed */}
-            <span className="flex items-center mx-5  px-20 py-2 bg-[#373737] rounded-4xl ">
+            <span className="flex items-center justify-center mx-5  px-20 py-2 bg-[#373737] rounded-4xl ">
               {/* First image sits normally */}
               <img
                 src="/images/profile1.png"

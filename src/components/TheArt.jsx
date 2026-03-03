@@ -64,24 +64,11 @@ const TheArt = () => {
         { opacity: 0 },
         { opacity: 1, duration: 1 },
       );
-
-    // gsap.to(title.current, {
-    //   scrollTrigger: {
-    //     trigger: parent.current,
-    //     scrub: 2,
-    //     pin: true,
-    //     markers: true,
-    //     end: "top -500%",
-    //   },
-    //   transform: "translateX(-760%)",
-    //   duration: 5,
-    //   ease: "power2.inout",
-    // });
   });
 
   return (
     <div>
-      <div ref={parent} className=" w-100vw bg-black text-white">
+      <div ref={parent} className=" w-100vw md:w-screen bg-black text-white">
         <div
           className=" h-full 
         md:mx-20"
@@ -106,14 +93,17 @@ const TheArt = () => {
               <div
                 ref={imageparameter}
                 className=" text-center text-3xl mb-5  font-serif font-bold
-               md:hidden md:text-4xl"
+               md:hidden md:text-4xl "
               >
                 <h1 className="">Sip-Worthy Perfection</h1>
               </div>
 
               {/* this is hidden div, visible after animation */}
-              <div ref={imageDefination} className="absolute top-1/2 flex-col">
-                <div className=" text-center text-2xl m-10 mt-20 md:text-4xl font-serif font-bold">
+              <div
+                ref={imageDefination}
+                className="absolute top-1/2 flex-col  md:top-3/5"
+              >
+                <div className=" text-center text-2xl m-10 mt-20 md:text-4xl  font-serif font-bold">
                   <h1 className="">Sip-Worthy Perfection</h1>
                   <h2>Made with Craft, Poured with Passion</h2>
                   <p className=" text-center text-sm ">
@@ -160,7 +150,7 @@ const TheArt = () => {
               {/* Adding two images */}
               <div
                 ref={imageDefination2}
-                className="w-full flex absolute bottom-0 justify-center gap-5 items-center"
+                className="w-full flex absolute bottom-0 justify-center gap-5 items-center md:-bottom-30"
               >
                 <img
                   src="/images/drink4.png"
