@@ -6,7 +6,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Footer = () => {
   return (
     <div className="relative">
-      <div className="relative flex justify-center items-center w-screen h-[150vh] pt-[6em] overflow-hidden">
+      <div className="relative flex justify-center items-center w-screen h-screen pt-[6em] overflow-hidden">
         <div className="absolute flex flex-col  w-80% text-center md:gap-8">
           <h1 className="font-serif text-[10vw] mb-5 md:text-7xl">
             Where to Find Us
