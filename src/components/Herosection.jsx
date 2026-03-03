@@ -70,7 +70,7 @@ const Herosection = () => {
       <div className="overflow-hidden">
         <h1
           ref={titleRef}
-          className="text-8xl text-center font-modern-negra 
+          className="text-8xl text-center -tracking-wider font-modern-negra text-transparent bg-clip-text bg-linear-to-t from-[#0f0f0f] to-[#ffffff]  font-serif
         md:text-[18vw] 
         lg:text-[25em] font-bold "
         >
@@ -98,12 +98,12 @@ const Herosection = () => {
       </div>
 
       <div
-        className="hidden h-50 text-start z-10 text-xl
+        className="hidden h-50 text-start z-10 text-xl  
       md:block md:bottom-10 md:absolute md:top-1/3 left-1/2 md:transform md:translate-x-[-70%] md:translate-y-[-70%] 
       lg:block lg:absolute lg:top-[80vh] lg:left-[15vw] lg:text-3xl "
       >
         Cool. Crisp. Classic.
-        <div className="text-6xl text-[#E1c878] md:leading-20 lg:text-7xl font-modern-negra">
+        <div className="text-6xl  text-[#E1c878] md:leading-20 lg:text-7xl font-modern-negra">
           Sip the Spirit
           <br /> of Summer{" "}
         </div>

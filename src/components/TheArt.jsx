@@ -90,7 +90,7 @@ const TheArt = () => {
             <div className="w-full relative pt-30 ">
               <h1
                 ref={title}
-                className="absolute w-full text-5xl font-bold text-center "
+                className="absolute w-full text-8xl font-bold text-center font-modern-negra text-transparent bg-clip-text bg-linear-to-t from-[#0f0f0f] to-[#ffffff] "
               >
                 The ART
               </h1>
@@ -131,7 +131,9 @@ const TheArt = () => {
                 <ul>
                   {goodLists.map((list, index) => (
                     <li key={index} className="flex gap-2 my-2">
-                      <span className="text-2xl font-bold">{index + 1}.</span>
+                      <span className="text-2xl font-bold flex items-center">
+                        <img src="/images/left-arrow.png" alt="" width={20} />
+                      </span>
                       <p className="text-xl">{list}</p>
                     </li>
                   ))}
@@ -146,7 +148,9 @@ const TheArt = () => {
                 <ul className="w-fit mr-5">
                   {featureLists.map((list, index) => (
                     <li key={index} className="flex gap-2 my-2">
-                      <span className="text-2xl font-bold">{index + 1}.</span>
+                      <span className="text-2xl font-bold flex items-center">
+                        <img src="/images/left-arrow.png" alt="" width={20} />
+                      </span>
                       <p className="text-xl">{list}</p>
                     </li>
                   ))}

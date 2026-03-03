@@ -1,4 +1,6 @@
-import React from "react";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalf } from "react-icons/fa";
+
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import gsap from "gsap";
@@ -89,7 +91,13 @@ const AboutSection = () => {
           md:flex md:justify-between md:items-center"
         >
           <div ref={rating} className="w-[w-50vw] my-5">
-            <p>stars</p>
+            <p className="flex">
+              <FaStar size={30} />
+              <FaStar size={30} />
+              <FaStar size={30} />
+              <FaStar size={30} />
+              <FaStarHalf size={30} />
+            </p>
             <span className="text-6xl font-bold text-[#E1c878]">
               4.5<span className="text-2xl text-white">/5</span>
             </span>

@@ -11,26 +11,26 @@ const Footer = () => {
           <h1 className="font-serif text-[10vw] mb-5 md:text-7xl">
             Where to Find Us
           </h1>
-          <div className="mb-10">
+          <div className="mb-5">
             <h2 className="text-2xl lg:text-4xl">VISIT OUR BAR</h2>
             <p className="text-l lg:text-2xl">
               456, Raq Blvd. #404, Los Angeles, CA 90210
             </p>
           </div>
-          <div className="mb-10">
-            <p className="text-2xl lg:text-4xl">Contact Us</p>
+          <div className="mb-5">
+            <p className="text-2xl lg:text-4xl pb-3">Contact Us</p>
             <p className="text-l lg:text-2xl"> (555) 987-6543</p>
             <p className="text-l lg:text-2xl">hello@jsmcocktail.com</p>
           </div>
-          <div className="mb-10">
-            <p className="text-2xl lg:text-4xl">Open Every Day</p>
+          <div className="mb-5">
+            <p className="text-2xl lg:text-4xl pb-3">Open Every Day</p>
             <p className="text-l lg:text-3xl">Mon–Thu : 11:00am – 12am</p>
             <p className="text-l lg:text-3xl">Fri : 11:00am – 2am</p>
             <p className="text-l lg:text-3xl">Sat : 9:00am – 2am</p>
             <p className="text-l lg:text-3xl">Sun : 9:00am – 1am</p>
           </div>
-          <div className="mb-10">
-            <p className="text-2xl lg:text-4xl">Socials</p>
+          <div className="mb-3">
+            <p className="text-2xl lg:text-4xl pb-2">Socials</p>
             <ul className="mx-20 flex justify-center items-center gap-5">
               <a href="">
                 <FaInstagram className="text-3xl lg:text-5xl hover:text-[#E1C878] hover:scale-110 transition-transform duration-300" />
