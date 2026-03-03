@@ -151,23 +151,25 @@ const TheArt = () => {
               </div>
 
               {/* Adding two images */}
-              <div
-                ref={imageDefination2}
-                className="w-full flex absolute bottom-0 justify-center gap-5 items-center md:-bottom-30"
-              >
-                <img
-                  src="/images/drink4.png"
-                  alt=""
-                  className="w-40 relative rotate-20 -left-5"
-                />
-                <img
-                  src="/images/drink1.png"
-                  alt=""
-                  className="w-40 relative -rotate-20 -right-6"
-                />
-              </div>
             </div>
           </div>
+        </div>
+
+        {/* last div */}
+        <div
+          ref={imageDefination2}
+          className="w-full flex absolute bottom-0 justify-center gap-5 items-center md:-bottom-30"
+        >
+          <img
+            src="/images/drink4.png"
+            alt=""
+            className="w-40 relative rotate-20 -left-5"
+          />
+          <img
+            src="/images/drink1.png"
+            alt=""
+            className="w-40 relative -rotate-20 -right-6"
+          />
         </div>
       </div>
     </div>
